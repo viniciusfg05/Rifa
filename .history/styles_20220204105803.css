@@ -155,11 +155,6 @@ section {
   justify-content: space-between;
 }
 
-.image {
-  position: relative;
-  overflow: hidden;
-}
-
 .image img {
   border-radius: 1rem;
   cursor: pointer;
@@ -171,13 +166,7 @@ section {
 }
 
 .image img:hover {
-  border-radius: 1rem;
-
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-
-  border-radius: 1rem;
+  transform: scale(1.05);
 }
 
 .cards h2 {

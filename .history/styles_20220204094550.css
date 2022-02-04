@@ -1,19 +1,9 @@
-/* font-family: 'Poppins', sans-serif;
-font-family: 'Quintessential', cursive;
-font-family: 'Roboto', sans-serif;
-font-family: 'Rowdies', cursive; */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-}
-
-body {
-  margin: 0 auto;
-  background: #ebebeb;
 }
 
 #header {
@@ -24,6 +14,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  position: fixed;
   z-index: 100;
   background-color: var(--body-color);
   width: 100%;
@@ -43,18 +34,15 @@ nav {
 
 .logo {
   margin-left: 1.3rem;
-  font-size: 1.5rem;
-  font-family: 'Quintessential', cursive;
-  color: #000000;
-  font-weight: 700;
+  font-size: 1.3rem;
 }
 
-.love {
+.logo span {
   color: #e13131;
 }
 
-.raffle {
-  color: #000000;
+.logo span .raffle {
+  color: #a50e0e;
 }
 
 /* MODAL */
@@ -130,56 +118,4 @@ nav {
   top: 1.4rem;
   right: 0.9rem;
   font-size: 1.7rem;
-}
-
-/* Procutos sorteados------------------------------------------------------------- */
-
-main {
-  width: 100%;
-}
-
-section {
-  margin: 0 1rem;
-}
-
-.cards {
-  width: 100%;
-  height: 22rem;
-  background: white;
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  justify-content: center;
-  padding: 0.6rem;
-  justify-content: space-between;
-}
-
-.image {
-  position: relative;
-  overflow: hidden;
-}
-
-.image img {
-  border-radius: 1rem;
-  cursor: pointer;
-
-  max-width: 100%;
-  -moz-transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.image img:hover {
-  border-radius: 1rem;
-
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-
-  border-radius: 1rem;
-}
-
-.cards h2 {
-  font-size: 1rem;
 }

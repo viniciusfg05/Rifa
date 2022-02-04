@@ -171,8 +171,6 @@ section {
 }
 
 .image img:hover {
-  border-radius: 1rem;
-
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);

@@ -158,6 +158,7 @@ section {
 .image {
   position: relative;
   overflow: hidden;
+  width: 400px;
 }
 
 .image img {
@@ -171,13 +172,9 @@ section {
 }
 
 .image img:hover {
-  border-radius: 1rem;
-
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-
-  border-radius: 1rem;
 }
 
 .cards h2 {
