@@ -14,6 +14,21 @@ font-family: 'Rowdies', cursive; */
 body {
   margin: 0 auto;
   background: #ebebeb;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.sr-only {
+  /* Para ocutar sem usar o display none */
+  position: absolute; /* Deixa tudo por cima*/
+  height: 1px; /* deixando ele com 1px */
+  width: 1px; /* deixa ele com 1px */
+  padding: 0; /* para nao ter padding */
+  margin: -1; /* deixa ele pra fora da margem */
+  overflow: hidden; /* nao deixa com barra de rolagem */
+  clip-path: rect(0, 0, 0, 0); /* deixa ele no canto */
+  white-space: nowrap; /* */
+  border-width: 0;
 }
 
 #header {
@@ -75,6 +90,7 @@ nav {
   align-items: center;
   right: 0;
   transition: 0.3s;
+  z-index: 99;
 }
 
 .menu ul li .title {
@@ -92,7 +108,7 @@ nav {
 /* FINAL DO MODAL */
 
 /* TOAGLE  */
-.menu.show .toggle.icon-close {
+.menu.show .icon-x {
   opacity: 1;
   visibility: visible;
   z-index: 99;
@@ -103,7 +119,7 @@ nav {
   transition: 0.3s;
 }
 
-.menu .toggle.icon-close {
+.menu .icon-x {
   opacity: 0;
   visibility: hidden;
   position: relative;
@@ -116,13 +132,13 @@ nav {
   top: -0.19rem;
 }
 
-.menu.show .toggle.icon-menu {
+.menu.show .icon-menu {
   opacity: 0;
   visibility: 0;
   transition: 0.3s;
 }
 
-.menu .toggle.icon-menu {
+.menu .icon-menu {
   opacity: 1;
   visibility: visibility;
   z-index: 99;
@@ -132,6 +148,58 @@ nav {
   font-size: 1.7rem;
 }
 
+/* home------------------------------------------------------------- */
+
+.text {
+  width: 100%;
+}
+
+.text h1 {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  /* text-align: center; */
+
+  margin-bottom: 1rem;
+
+}
+
+.input {
+  margin: 0 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input input {
+  height: 2.5rem;
+  width: 89%;
+  border: none;
+
+  border-radius: 0.5rem;
+}
+
+.input a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding:0;
+}
+
+.icon-search{
+  color: #ffffff;
+  font-size: 1.3rem;
+  background: #4063b1;
+  padding: 0.52rem;
+  border-radius: 0.4rem;
+  margin-left: 0.8rem;
+}
+
+.input input::placeholder {
+  padding-left: 1rem;
+}
+
+
 /* Procutos sorteados------------------------------------------------------------- */
 
 main {
@@ -139,12 +207,15 @@ main {
 }
 
 section {
-  margin: 0 1rem;
+  margin: 2rem 1rem;
+  cursor: pointer;
 }
+
+
 
 .cards {
   width: 100%;
-  height: 22rem;
+  max-height: 30rem;
   background: white;
   border-radius: 1rem;
   display: flex;
@@ -158,16 +229,20 @@ section {
 .image {
   position: relative;
   overflow: hidden;
+  border-radius: 1rem;
+
+  margin-bottom: 1rem;
+
 }
 
 .image img {
-  border-radius: 1rem;
   cursor: pointer;
-
   max-width: 100%;
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+ 
+    
 }
 
 .image img:hover {
@@ -175,11 +250,66 @@ section {
 
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  transform: scale(1.1);
 
   border-radius: 1rem;
 }
 
 .cards h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 0.5rem;
+  width: 7rem;
+  height: 3rem;
+  background-color: #4063b1;
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.1rem;
+
+  margin: 1rem auto;
+}
+
+
+
+
+
+
+/* RESPONSIVIDADE*************************************************** */
+
+@media (min-width: 1000px) {
+
+  .postsRifa {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+ 
+  .container {
+    max-width: 1200px; /*Aqui, define o tamanho heade, barra do menu. Para ficar alinhado ao centro*/
+    margin-left: auto; /*Complemento da "max-width", define as margens laterais para automatico*/
+    margin-right: auto; /*Complemento da "max-width", define as margens laterais para automatico*/
+  }
+
+  .cards {
+    height: 25rem;
+    width: 20rem;
+  }
+
+  .cards h2 {
+    font-size: 0.8rem
+  }
 }
