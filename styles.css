@@ -44,7 +44,7 @@ body {
   width: 100%;
   height: 4rem;
 
-  background-color: rgb(235, 191, 70);
+  background-color: rgb(199 166 203);
 
   z-index: 99;
 }
@@ -70,82 +70,6 @@ nav {
 
 .raffle {
   color: #000000;
-}
-
-/* MODAL */
-.menu.show .grid {
-  opacity: 1;
-  visibility: visible;
-
-  height: 100vh;
-  width: 100vw;
-
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgb(233, 233, 233);
-  display: flex;
-  flex-direction: column;
-  place-content: center;
-  align-items: center;
-  right: 0;
-  transition: 0.3s;
-  z-index: 99;
-}
-
-.menu ul li .title {
-  color: black;
-  font-size: 2rem;
-  display: flex;
-  margin-bottom: 1rem;
-}
-
-.grid {
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-}
-/* FINAL DO MODAL */
-
-/* TOAGLE  */
-.menu.show .icon-x {
-  opacity: 1;
-  visibility: visible;
-  z-index: 99;
-  position: relative;
-  top: -0.5rem;
-  right: 1rem;
-  font-size: 2rem;
-  transition: 0.3s;
-}
-
-.menu .icon-x {
-  opacity: 0;
-  visibility: hidden;
-  position: relative;
-  top: -50rem;
-}
-
-.iconeMenu {
-  position: absolute;
-  right: 0.5rem;
-  top: -0.19rem;
-}
-
-.menu.show .icon-menu {
-  opacity: 0;
-  visibility: 0;
-  transition: 0.3s;
-}
-
-.menu .icon-menu {
-  opacity: 1;
-  visibility: visibility;
-  z-index: 99;
-  position: relative;
-  top: 1.4rem;
-  right: 0.9rem;
-  font-size: 1.7rem;
 }
 
 /* home------------------------------------------------------------- */
@@ -221,12 +145,16 @@ section {
   display: flex;
   flex-direction: column;
   margin: 0;
-  justify-content: center;
   padding: 0.6rem;
-  justify-content: space-between;
+
+  transition: all 0.3s;
 }
 
-.image {
+.cards:hover {
+  transform: scale(1.02)
+}
+
+.images {
   position: relative;
   overflow: hidden;
   border-radius: 1rem;
@@ -235,7 +163,7 @@ section {
 
 }
 
-.image img {
+.images img {
   cursor: pointer;
   max-width: 100%;
   -moz-transition: all 0.5s;
@@ -245,7 +173,7 @@ section {
     
 }
 
-.image img:hover {
+.images img:hover {
   border-radius: 1rem;
 
   -moz-transform: scale(1.2);
@@ -256,10 +184,11 @@ section {
 }
 
 .cards h2 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   margin-bottom: 1rem;
   text-align: center;
 }
+
 
 
 
@@ -272,7 +201,7 @@ button {
   border-radius: 0.5rem;
   width: 7rem;
   height: 3rem;
-  background-color: #4063b1;
+  background-color: rgb(199 166 203);
 
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
@@ -280,7 +209,21 @@ button {
   font-size: 1.1rem;
 
   margin: 1rem auto;
+
+  transition: 0.3s;
+
 }
+
+.foto {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 20rem;
+}
+
+
 
 
 
@@ -290,26 +233,126 @@ button {
 /* RESPONSIVIDADE*************************************************** */
 
 @media (min-width: 1000px) {
+  #header{
+    display: flex;
+    height: 6rem
+  }
+
+  .logo{
+    font-size: 2rem;
+  }
+
+  .menuUser{
+    display: flex;
+    gap: 1rem;
+  }
+
+  .menuUser .login{
+    background: #fff;
+    width: 6rem;
+    height: 2.5rem;
+    display: flex;
+    border-radius: 0.5rem;
+    text-align: center;
+    justify-content:center;
+    
+
+  }
+
+  .menuUser .login a {
+    text-align: center;
+    color:black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  .menuUser .create{
+    background: #e13131;
+    width: 7.5rem;
+    height: 2.5rem;
+    display: flex;
+    border-radius: 0.5rem;
+    text-align: center;
+    justify-content:center;
+    
+
+  }
+
+
+  .menuUser .create a {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  }
+
+  .iconeMenu {
+    display: none;
+  }
+
+
+
 
   .postsRifa {
     display: flex;
     width: 100%;
     height: 100%;
     flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  section {
+    margin: 1rem;
   }
  
   .container {
-    max-width: 1200px; /*Aqui, define o tamanho heade, barra do menu. Para ficar alinhado ao centro*/
+    max-width: 1056px; /*Aqui, define o tamanho heade, barra do menu. Para ficar alinhado ao centro*/
     margin-left: auto; /*Complemento da "max-width", define as margens laterais para automatico*/
     margin-right: auto; /*Complemento da "max-width", define as margens laterais para automatico*/
   }
 
-  .cards {
-    height: 25rem;
-    width: 20rem;
+  /* .image{
+    align-items: center;
+    width: 100%;
+    display: flex;
+   
+  } */
+
+  .postsRifa {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .cards {
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    grid-auto-rows: 200px;
+  }
+
+  
+
   .cards h2 {
-    font-size: 0.8rem
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0
+
+  }
+
+  .images{
+    max-width: 19rem;
+    max-height: 19rem;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
   }
 }
