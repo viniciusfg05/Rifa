@@ -21,22 +21,10 @@ for (const link of links) {
 
 //Testimonials carousel slider swiper
 
-const swiper = new Swiper('.swiper-container', {
-  slidesPerView: 1,
-  pagination: {
-    el: '.swiper-pagination'
-  },
-  mousewheel: {
-    invert: true
-  },
-  keyboard: true,
-  autoplay: {
-    delay: 8000
-  },
-  breakpoints: {
-    767: {
-      slidesPerView: 1,
-      setWrapperSize: false
-    }
+document.querySelector('#itens').addEventListener('wheel', event => {
+  if (event.deltaY > 0) {
+    event.target.scrollBy(300, 0)
+  } else {
+    event.target.scrollBy(-300, 0)
   }
 })
