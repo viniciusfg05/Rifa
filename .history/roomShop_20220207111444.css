@@ -101,11 +101,11 @@ input {
   display: none;
 }
 
-/* .slides {
+.slides {
   display: flex;
   width: 500%;
   height: 100%;
-} */
+}
 
 .slide {
   width: 20%;
@@ -119,13 +119,12 @@ input {
 
 .images {
   display: flex;
-  width: 500%;
 }
 
-#slide1:checked ~ .slide.s1 {
+#slide1:checked ~ .s1 {
   margin-left: 0;
 }
 
-#slide2:checked ~ .slide.s1 {
-  opacity: 0;
+#slide2:checked ~ .s1 {
+  margin-left: 20%;
 }

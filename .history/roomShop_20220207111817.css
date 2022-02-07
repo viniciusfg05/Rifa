@@ -127,5 +127,5 @@ input {
 }
 
 #slide2:checked ~ .slide.s1 {
-  opacity: 0;
+  margin-left: 100%;
 }
