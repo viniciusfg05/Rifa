@@ -33,45 +33,60 @@
       </nav>
     </header>
 
-    <main>
-      <div id="itens-wrapper">
-        <div id="itens">
-          <div class="item">
-            <img src="./assets/Iphone8PlusRosa.jpg" alt="" />
-          </div>
+    <main class="container">
+      <div class="content">
+        <div class="slides">
+          <div>
+            <input type="radio" name="radio" id="slide1" checked />
+            <input type="radio" name="radio" id="slide2" />
+            <input type="radio" name="radio" id="slide3" />
+            <input type="radio" name="radio" id="slide4" />
+            <input type="radio" name="radio" id="slide5" />
 
-          <div class="item">
-            <img
-              src="https://www.infomoney.com.br/wp-content/uploads/2019/10/shutterstock_1498167521.jpg"
-              alt=""
-            />
-          </div>
+            <div class="images">
+              <div class="slide s1">
+                <img
+                  src="https://images.unsplash.com/photo-1500099817043-86d46000d58f?ixlib=rb-1.2.1&ixid=MnwxMB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=50"
+                  alt="Imgem de iphone"
+                />
+              </div>
+              <div class="slide s2">
+                <img
+                  src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
+                  alt="Imgem de iphone"
+                />
+              </div>
+              <div class="slide s3">
+                <img
+                  src="https://images.unsplash.com/file-1636585210491-f28ca34ea8ecimage"
+                  alt="Imgem de iphone"
+                />
+              </div>
+              <div class="slide s4">
+                <img
+                  class="image"
+                  src="https://www.infomoney.com.br/wp-content/uploads/2019/10/shutterstock_1498167521.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="slide s5">
+                <img
+                  src="https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cmFuZG9tJTIwcGhvdG98ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60"
+                  alt="Imgem de iphone"
+                />
+              </div>
+            </div>
 
-          <div class="item">
-            <img src="./assets/Iphone8PlusRosa.jpg" alt="" />
-          </div>
-
-          <div class="item">
-            <img
-              src="https://www.infomoney.com.br/wp-content/uploads/2019/10/shutterstock_1498167521.jpg"
-              alt=""
-            />
-          </div>
-
-          <div class="item">
-            <img src="./assets/Iphone8PlusRosa.jpg" alt="" />
-          </div>
-
-          <div class="item">
-            <img
-              src="https://www.infomoney.com.br/wp-content/uploads/2019/10/shutterstock_1498167521.jpg"
-              alt=""
-            />
+            <div onclick="Modal.next()" class="navigation">
+              <label class="bar" for="slide1">oi</label>
+              <label class="bar" for="slide2"></label>
+              <label class="bar" for="slide3"></label>
+              <label class="bar" for="slide4"></label>
+              <label class="bar" for="slide5"></label>
+            </div>
           </div>
         </div>
       </div>
     </main>
   </body>
-
-  <script src="main.js"></script>
 </html>

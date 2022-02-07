@@ -21,10 +21,8 @@ for (const link of links) {
 
 //Testimonials carousel slider swiper
 
-document.querySelector('#itens').addEventListener('wheel', event => {
-  if (event.deltaY > 0) {
-    event.target.scrollBy(300, 0)
-  } else {
-    event.target.scrollBy(-300, 0)
+const Modal = {
+  next() {
+    document.querySelector('.navigation')
   }
-})
+}
