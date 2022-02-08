@@ -23,6 +23,6 @@ for (const link of links) {
 
 const Modal = {
   next() {
-    document.querySelector('.navigation')
+    document.querySelectorAll('.bar')
   }
 }
