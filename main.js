@@ -1,28 +1,37 @@
-//abre e fecha o menu
-const nav = document.querySelector('#header .menu')
-const toggle = document.querySelectorAll('nav .toggle')
 
-for (const element of toggle) {
-  element.addEventListener('click', function () {
-    nav.classList.toggle('show')
-  })
-}
+const slides = document.querySelectorAll("#carousel__item") 
+const nextButton = document.querySelector('#buttonNext')
+const prevButton = document.querySelector('#buttonPrev')
 
-//quando clicar em um intem do menu, esconder o menu
-const links = document.querySelectorAll('nav ul li a')
+let currentSlide = 0
 
-for (const link of links) {
-  link.addEventListener('click', function () {
-    nav.classList.remove('show')
-  })
-}
-
-//***************** */
-
-//Testimonials carousel slider swiper
-
-const Modal = {
-  next() {
-    document.querySelector('.navigation')
+nextButton.addEventListener('click', () => {
+  if (currentSlide === slides.length - 1) {
+    currentSlide = 0
+  } else {
+    currentSlide++
   }
-}
+
+
+  slides.forEach(slide => {
+    slide.classList.remove("carousel__item--visible")
+  })
+
+  slides[currentSlide].classList.add("carousel__item--visible")
+})
+
+
+prevButton.addEventListener("click", () => {
+  if (currentSlide === 0) {
+    currentSlide = slides.length -1
+  } else {
+    currentSlide--
+  }
+
+
+  slides.forEach(slide => {
+    slide.classList.remove("carousel__item--visible")
+  })
+
+  slides[currentSlide].classList.add("carousel__item--visible")
+})
