@@ -1,5 +1,26 @@
 {
+  "name": "Rifa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusfg05/Rifa.git",
+    "start": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusfg05/Rifa/issues"
+  },
+  "homepage": "https://github.com/viniciusfg05/Rifa#readme",
   "dependencies": {
-    "@splidejs/splide": "^3.6.12"
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
   }
 }
