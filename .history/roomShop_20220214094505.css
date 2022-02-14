@@ -282,7 +282,3 @@ h1 {
 .Number:hover {
   background-color: rgb(222, 222, 222);
 }
-
-.Number.checked {
-  background-color: #74a0f8;
-}

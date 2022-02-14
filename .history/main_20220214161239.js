@@ -56,18 +56,18 @@ let data = [
   },
   {
     id: 3,
-    number: 002
+    number: 001
   },
   {
     id: 4,
-    number: 003
+    number: 001
   },
   {
     id: 5,
-    number: 004
+    number: 001
   }
 ]
 
 function enviar() {
-  console.log(data[1].number)
+  console.log(NumberChecked[0].innerHTML)
 }

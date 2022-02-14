@@ -69,5 +69,5 @@ let data = [
 ]
 
 function enviar() {
-  console.log(data[1].number)
+  console.log(data[1])
 }

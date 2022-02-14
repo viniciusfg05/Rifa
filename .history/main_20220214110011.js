@@ -36,38 +36,25 @@ prevButton.addEventListener('click', () => {
 
 const NumberSelects = document.querySelector('.SelectNumbers')
 const Numbers = document.querySelectorAll('.Number')
-const NumberChecked = document.querySelectorAll('.Number.checked')
 
-for (const element of Numbers) {
-  element.addEventListener('click', function () {
-    element.classList.toggle('checked')
+let numb = element.classList.length
+
+Numbers.forEach(Numero => {
+  document.addEventListener('click', function () {
+    Numero.classList.toggle('checked')
   })
-}
 
-let data = [
-  //Estrutura de dados jobs
-  {
-    id: 1,
-    number: 000
-  },
-  {
-    id: 2,
-    number: 001
-  },
-  {
-    id: 3,
-    number: 002
-  },
-  {
-    id: 4,
-    number: 003
-  },
-  {
-    id: 5,
-    number: 004
+  // Numero.classList.add('chekend')
+})
+
+Numbers.addEventListener('click', () => {
+  if (currentSlide === Numbers.length - 1) {
+    currentSlide = 0
+  } else {
+    currentSlide++
   }
-]
 
-function enviar() {
-  console.log(data[1].number)
-}
+  Numbers.forEach(numero => {
+    numero.classList.toggle('oi')
+  })
+})

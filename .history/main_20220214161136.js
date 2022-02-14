@@ -52,22 +52,13 @@ let data = [
   },
   {
     id: 2,
-    number: 001
-  },
-  {
-    id: 3,
-    number: 002
-  },
-  {
-    id: 4,
-    number: 003
-  },
-  {
-    id: 5,
-    number: 004
+    name: 'OneTwo Project',
+    'daily-hours': 4,
+    'total-hours': 65,
+    created_at: Date.now()
   }
 ]
 
 function enviar() {
-  console.log(data[1].number)
+  console.log(NumberChecked[0].innerHTML)
 }
