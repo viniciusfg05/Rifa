@@ -1,0 +1,358 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Quintessential', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rowdies', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  margin: 0 auto;
+  background: #ebebeb;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.sr-only {
+  /* Para ocutar sem usar o display none */
+  position: absolute; /* Deixa tudo por cima*/
+  height: 1px; /* deixando ele com 1px */
+  width: 1px; /* deixa ele com 1px */
+  padding: 0; /* para nao ter padding */
+  margin: -1; /* deixa ele pra fora da margem */
+  overflow: hidden; /* nao deixa com barra de rolagem */
+  clip-path: rect(0, 0, 0, 0); /* deixa ele no canto */
+  white-space: nowrap; /* */
+  border-width: 0;
+}
+
+#header {
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 2rem;
+  display: flex;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: var(--body-color);
+  width: 100%;
+  height: 4rem;
+
+  background-color: rgb(199 166 203);
+
+  z-index: 99;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /*alinhamento*/
+}
+
+.logo {
+  margin-left: 1.3rem;
+  font-size: 1.5rem;
+  font-family: 'Quintessential', cursive;
+  color: #000000;
+  font-weight: 700;
+}
+
+.love {
+  color: #e13131;
+}
+
+.raffle {
+  color: #000000;
+}
+
+/* home------------------------------------------------------------- */
+
+.text {
+  width: 100%;
+}
+
+.text h1 {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  /* text-align: center; */
+
+  margin-bottom: 1rem;
+
+}
+
+.input {
+  margin: 0 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input input {
+  height: 2.5rem;
+  width: 89%;
+  border: none;
+
+  border-radius: 0.5rem;
+}
+
+.input a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding:0;
+}
+
+.icon-search{
+  color: #ffffff;
+  font-size: 1.3rem;
+  background: #4063b1;
+  padding: 0.52rem;
+  border-radius: 0.4rem;
+  margin-left: 0.8rem;
+}
+
+.input input::placeholder {
+  padding-left: 1rem;
+}
+
+
+/* Procutos sorteados------------------------------------------------------------- */
+
+main {
+  width: 100%;
+}
+
+section {
+  margin: 2rem 1rem;
+  cursor: pointer;
+}
+
+
+
+.cards {
+  width: 100%;
+  max-height: 30rem;
+  background: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0.6rem;
+
+  transition: all 0.3s;
+}
+
+.cards:hover {
+  transform: scale(1.02)
+}
+
+.images {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+
+  margin-bottom: 1rem;
+
+}
+
+.images img {
+  cursor: pointer;
+  max-width: 100%;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+ 
+    
+}
+
+.images img:hover {
+  border-radius: 1rem;
+
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.1);
+
+  border-radius: 1rem;
+}
+
+.cards h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+
+
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 0.5rem;
+  width: 7rem;
+  height: 3rem;
+  background-color: rgb(199 166 203);
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 1.1rem;
+
+  margin: 1rem auto;
+
+  transition: 0.3s;
+
+}
+
+.foto {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 20rem;
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVIDADE*************************************************** */
+
+@media (min-width: 1000px) {
+  #header{
+    display: flex;
+    height: 6rem
+  }
+
+  .logo{
+    font-size: 2rem;
+  }
+
+  .menuUser{
+    display: flex;
+    gap: 1rem;
+  }
+
+  .menuUser .login{
+    background: #fff;
+    width: 6rem;
+    height: 2.5rem;
+    display: flex;
+    border-radius: 0.5rem;
+    text-align: center;
+    justify-content:center;
+    
+
+  }
+
+  .menuUser .login a {
+    text-align: center;
+    color:black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+  }
+  
+  .menuUser .create{
+    background: #e13131;
+    width: 7.5rem;
+    height: 2.5rem;
+    display: flex;
+    border-radius: 0.5rem;
+    text-align: center;
+    justify-content:center;
+    
+
+  }
+
+
+  .menuUser .create a {
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  }
+
+  .iconeMenu {
+    display: none;
+  }
+
+
+
+
+  .postsRifa {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  section {
+    margin: 1rem;
+  }
+ 
+  .container {
+    max-width: 1056px; /*Aqui, define o tamanho heade, barra do menu. Para ficar alinhado ao centro*/
+    margin-left: auto; /*Complemento da "max-width", define as margens laterais para automatico*/
+    margin-right: auto; /*Complemento da "max-width", define as margens laterais para automatico*/
+  }
+
+  /* .image{
+    align-items: center;
+    width: 100%;
+    display: flex;
+   
+  } */
+
+  .postsRifa {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    grid-auto-rows: 200px;
+  }
+
+  
+
+  .cards h2 {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0
+
+  }
+
+  .images{
+    max-width: 19rem;
+    max-height: 19rem;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+}
