@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* HEAD================================================ */
+
+#header {
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 2rem;
+  display: flex;
+
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: var(--body-color);
+  width: 100%;
+  height: 4rem;
+
+  background-color: rgb(199 166 203);
+
+  z-index: 99;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /*alinhamento*/
+}
+
+.logo {
+  margin-left: 1.3rem;
+  font-size: 1.5rem;
+  font-family: 'Quintessential', cursive;
+  color: #000000;
+  font-weight: 700;
+}
+
+.love {
+  color: #e13131;
+}
+
+.raffle {
+  color: #000000;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* CAROCEL DE IMAGENS=============================== */
+
+/* #carousel__item {
+  height: 100%;
+  margin-bottom: auto;
+  margin-top: auto;
+} */
+
+.carousel {
+  overflow: hidden;
+  width: 70%;
+  height: 100%;
+  position: relative;
+
+  border-radius: 1rem;
+}
+
+.carousel .carousel__item,
+.carousel .carousel__item--hidden {
+  display: none;
+}
+
+.carousel .carousel__item img {
+  width: 100%;
+
+  object-fit: cover;
+  margin-bottom: auto;
+  margin-top: auto;
+
+  border-radius: 1rem;
+}
+
+.carousel .carousel__item--visible {
+  display: block;
+  animation: fadeVisibility 0.5s;
+}
+
+.carousel .carousel__actions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel .carousel__actions button {
+  border-radius: 50px;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #2424242b;
+  font-size: 1.3rem;
+
+  transition: 0.5s;
+}
+
+.carousel .carousel__actions button[data-js='carousel__button--prev'] {
+  margin-left: 20px;
+}
+
+.carousel .carousel__actions button[data-js='carousel__button--next'] {
+  margin-right: 20px;
+}
+
+#buttonNext:hover,
+#buttonPrev:hover {
+  background-color: rgba(255, 255, 255, 0.304);
+  color: #000000;
+}
+
+/* @keyframes {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: opacity linear;
+  }
+} */
+
+/* Main do carrocel ===============================  */
+
+.container {
+  width: 969px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: flex;
+  gap: 2rem;
+}
+
+.descriptions {
+  width: 50%;
+}
+
+.valuesDescription {
+  width: 100%;
+
+  background-color: rgba(199, 166, 203, 0.194);
+  border-radius: 1rem;
+
+  padding: 2rem;
+}
+
+.valuesDescription .button {
+  background-color: rgb(199 166 203);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #fff;
+  font-size: 1rem;
+}
+
+.valuesDescription .sorteio {
+  background-color: rgb(222, 210, 223);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+
+  color: rgb(69, 69, 69);
+  font-size: 1rem;
+}
+
+.descriptionRiffle {
+  background-color: rgb(222, 210, 223);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+
+  color: rgb(69, 69, 69);
+  font-size: 1rem;
+}
+
+.promo {
+  width: 100%;
+  background-color: rgba(199, 166, 203, 0.194);
+  border-radius: 1rem;
+
+  margin-top: 1.5rem;
+}
+
+.promo h2 {
+  background-color: rgb(199 166 203);
+  border-radius: 1rem 1rem 0 0;
+
+  text-align: center;
+}
+
+.promotion {
+  background-color: rgb(222, 210, 223);
+  padding: 0 2rem;
+
+  color: rgb(69, 69, 69);
+  font-size: 1rem;
+
+  border-radius: 0 0 1rem 1rem;
+}
+
+.promotion p {
+  padding-top: 0.5rem;
+}
+
+.divisao {
+  border: 1px solid rgb(199 166 203);
+}
+
+.SelectNumbers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.textNumbers h2 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.Number {
+  background-color: rgb(152, 152, 152);
+  margin-left: 0.3rem;
+  margin-bottom: 0.3rem;
+  /* width: 2.5rem;
+  height: 1rem; */
+
+  font-size: 0.7rem;
+
+  text-align: center;
+
+  padding: 0.2rem;
+
+  border-radius: 0.3rem;
+
+  transition: 0.3rem;
+}
+
+.Number:hover {
+  background-color: rgb(222, 222, 222);
+}
+
+.Number.checked {
+  background-color: #74a0f8;
+}

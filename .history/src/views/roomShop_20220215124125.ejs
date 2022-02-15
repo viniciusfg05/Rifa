@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rifa</title>
+
+    <link rel="stylesheet" href="assets/Icons/style.css" />
+
+    <link rel="stylesheet" href="/styles/roomShop.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Quintessential&family=Roboto:wght@100;400;500&family=Rowdies:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    
+  </head>
+  <body>
+    <header id="header">
+      <!--Torna esse Header unico-->
+      <nav class="container">
+        <!--add para ter elemementos de cliques-->
+        <a class="logo" href="#"
+          >Y<span class="love">Love</span><span class="raffle">Raffle</span>.</a
+        >
+        <div class="menu">
+          
+          
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <H1>
+        iPhone 13 Pro Branco ou R$ 5.000,00 no PIX
+      </H1>
+
+      <div class="grid">
+        <div class="carousel">
+          <div id="carousel__item" class="carousel__item carousel__item--visible">
+            <img src="https://s2.glbimg.com/y0GNKs8ClyXiPmqix9_NItDRn_k=/0x0:695x390/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/c/H/XIUw6uSpaVhRglAQoy0g/whatsapp-image-2021-05-06-at-22.30.39-1-.jpg" />
+          </div>
+        
+          <div id="carousel__item" class="carousel__item">
+            <img src="https://img.olhardigital.com.br/wp-content/uploads/2021/08/iphone-13-sonny-dickson.jpeg" />
+          </div>
+        
+          <div id="carousel__item" class="carousel__item">
+            <img src="https://s2.glbimg.com/C29SqupHJL10vzkLVN2BM4TUncA=/0x0:1280x720/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/5/U/ADdQpdSKuJoFBjc9WeNw/2021-05-06-22-50-13.jpg" />
+          </div>
+  
+          <div id="carousel__item" class="carousel__item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz0en8tUV_nOlNDFFkm8k4GxHOQM-0JeOytuKMmaw7lNUpMm5U8gyUfmW6VS7W9wZ65KM&usqp=CAU" />
+          </div>
+  
+          <div id="carousel__item" class="carousel__item">
+            <img src="https://t2.tudocdn.net/600158?w=1920" />
+          </div>
+  
+  
+          
+        
+          <div class="carousel__actions">
+            <button id="buttonPrev" aria-label="Slide anterior">
+              <
+            </button>
+          
+            <button id="buttonNext" aria-label="Próximo slide">
+              >
+            </button>
+          </div>
+        
+        </div>
+
+        <div class="descriptions">
+          <div class="valuesDescription">
+            <div>
+              <p class="button">
+                Valor R$ 3,00
+              </p>
+            </div>
+
+            <div>
+              <p class="sorteio">
+                Sorteio no dia 30/03/2022
+              </p>
+            </div>
+            
+            <div class="descriptionRiffle">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>  
+          </div>  
+  
+  
+          <div class="promo">
+            <h2>Promoção de nùmero</h2>
+            <div class="promotion">
+              <p>
+                50 números por R$ 140,00
+              </p>
+
+              <div class="divisao"></div>
+
+              <p>
+                100 números por R$ 260,00
+              </p>
+
+              <div class="divisao"></div>
+            </div>
+          </div>
+  
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="dividi"></div>
+      
+      <div class="textNumbers">
+        <h2>
+          Selecine seus números
+      </h2>
+      </div>
+
+
+
+      <div class="SelectNumbers">
+
+
+        <% datas.forEach((data) => { %>
+        
+          <label id="<%= data.id %>  " class="Number checked"><%= data.number %> </label>
+
+        <% }) %> 
+
+
+
+
+
+
+
+        <!-- <label id="0001" class="Number">0001</label>
+        <label id="0002" class="Number">0002</label>
+        <label id="0003" class="Number checked">0003</label>
+        <label id="0004" class="Number">0004</label>
+        <label id="0005" class="Number">0005</label>
+        <label id="0006" class="Number">0006</label> -->
+        
+        
+      </div>
+
+      <div class="modalNumber active">
+        <div>
+          <div>
+            <button onClick="enviar()" >Enviar</button>
+          </div>
+        </div>
+      </div>
+
+      
+    </main>
+
+    <script src="../../public/scripts/main.js" defer type="module"></script>
+  </body>
+</html>
