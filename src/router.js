@@ -17,126 +17,14 @@ routes.get('/room/shop', (req, res) => {
     {
       id: 2,
       number: 888
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 2,
-      number: 888
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 2,
-      number: 888
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 2,
-      number: 888
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 2,
-      number: 888
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 2,
-      number: 888
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
-    },
-    {
-      id: 001,
-      number: 999
     }
   ]
 
-  return res.render(__dirname + '/views/roomShop', { datas })
+  return res.render(
+    __dirname + '/views/roomShop',
+    { datas },
+    dataNumbers.getData
+  )
 })
 
 module.exports = routes
