@@ -10,7 +10,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer, onde é possível cadastrar e excluir jobs (projetos), obtendo uma estimativa de custo de cada job. Além disso, é possível traçar o valor da hora da pessoa que estará usando o sistema 💰
+O vRifa é uma aplicação de para publicação de rifa ou sorteios, listantando uma listagem de numero até 1000 para ser sorteado, o cliente ir selecionar os numero desejados e aguardar o sorteio💰
 
 ## 🔖 Layout
 
