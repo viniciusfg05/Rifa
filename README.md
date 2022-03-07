@@ -1,15 +1,12 @@
-
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
+- SCSS
 - JavaScript
-- NodeJS
-- EJS
-- Express
-- SQLite
+- MirageJs
+- NextJs
+- ReactJs
 
 ## 💻 Projeto
 
@@ -17,8 +14,6 @@ O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Em construção
 
-## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
