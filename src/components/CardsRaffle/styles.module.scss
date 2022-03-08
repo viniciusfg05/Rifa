@@ -1,0 +1,29 @@
+.headerContainer {
+
+    section {
+        border-radius: 10px;
+        background: #fff;
+        width: 15rem;
+        height: 22rem;
+
+        img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        p{
+            font-size: 1rem;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .buttonContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            bottom: 0;
+        }
+            
+    }
+}
