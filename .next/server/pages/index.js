@@ -1,0 +1,89 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
+exports.modules = {
+
+/***/ "./src/components/CardsRaffle/styles.module.scss":
+/*!*******************************************************!*\
+  !*** ./src/components/CardsRaffle/styles.module.scss ***!
+  \*******************************************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"headerContainer\": \"styles_headerContainer__Fb9I2\",\n\t\"buttonContainer\": \"styles_buttonContainer__ELTvk\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9DYXJkc1JhZmZsZS9zdHlsZXMubW9kdWxlLnNjc3MuanMiLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL3JpZmEvLi9zcmMvY29tcG9uZW50cy9DYXJkc1JhZmZsZS9zdHlsZXMubW9kdWxlLnNjc3M/MmJjMCJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJoZWFkZXJDb250YWluZXJcIjogXCJzdHlsZXNfaGVhZGVyQ29udGFpbmVyX19GYjlJMlwiLFxuXHRcImJ1dHRvbkNvbnRhaW5lclwiOiBcInN0eWxlc19idXR0b25Db250YWluZXJfX0VMVHZrXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/CardsRaffle/styles.module.scss\n");
+
+/***/ }),
+
+/***/ "./src/components/Header/styles.module.scss":
+/*!**************************************************!*\
+  !*** ./src/components/Header/styles.module.scss ***!
+  \**************************************************/
+/***/ ((module) => {
+
+eval("// Exports\nmodule.exports = {\n\t\"headerContainer\": \"styles_headerContainer__uAgJk\",\n\t\"headerContent\": \"styles_headerContent__h9eUe\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9IZWFkZXIvc3R5bGVzLm1vZHVsZS5zY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yaWZhLy4vc3JjL2NvbXBvbmVudHMvSGVhZGVyL3N0eWxlcy5tb2R1bGUuc2Nzcz81Y2Q2Il0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcImhlYWRlckNvbnRhaW5lclwiOiBcInN0eWxlc19oZWFkZXJDb250YWluZXJfX3VBZ0prXCIsXG5cdFwiaGVhZGVyQ29udGVudFwiOiBcInN0eWxlc19oZWFkZXJDb250ZW50X19oOWVVZVwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/Header/styles.module.scss\n");
+
+/***/ }),
+
+/***/ "./src/components/CardsRaffle/index.tsx":
+/*!**********************************************!*\
+  !*** ./src/components/CardsRaffle/index.tsx ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"CardsRaffle\": () => (/* binding */ CardsRaffle)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.module.scss */ \"./src/components/CardsRaffle/styles.module.scss\");\n/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction CardsRaffle() {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default().headerContainer),\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                    className: \"image\",\n                    src: \"/Iphone8PlusRosa.jpg\",\n                    alt: \"\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\components\\\\CardsRaffle\\\\index.tsx\",\n                    lineNumber: 7,\n                    columnNumber: 17\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                    children: \"Iphone 8 plus - R$ 8,00 cada n\\xfamero\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\components\\\\CardsRaffle\\\\index.tsx\",\n                    lineNumber: 8,\n                    columnNumber: 17\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default().buttonContainer),\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                        children: \"Adiquirir\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\components\\\\CardsRaffle\\\\index.tsx\",\n                        lineNumber: 10,\n                        columnNumber: 21\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\components\\\\CardsRaffle\\\\index.tsx\",\n                    lineNumber: 9,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\components\\\\CardsRaffle\\\\index.tsx\",\n            lineNumber: 6,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\components\\\\CardsRaffle\\\\index.tsx\",\n        lineNumber: 5,\n        columnNumber: 9\n    }, this));\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9DYXJkc1JhZmZsZS9pbmRleC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQXlDO0FBRWxDLFNBQVNDLFdBQVcsR0FBRyxDQUFDO0lBQzNCLE1BQU0sNkVBQ0RDLENBQUc7UUFBQ0MsU0FBUyxFQUFFSCw0RUFBc0I7OEZBQ2pDSyxDQUFPOzs0RkFDSEMsQ0FBRztvQkFBQ0gsU0FBUyxFQUFDLENBQU9JO29CQUFBQSxHQUFHLEVBQUMsQ0FBc0I7b0JBQUNDLEdBQUcsRUFBQyxDQUFFOzs7Ozs7NEZBQ3REQyxDQUFDOzhCQUFDLENBQW1DOzs7Ozs7NEZBQ3JDUCxDQUFHO29CQUFDQyxTQUFTLEVBQUVILDRFQUFzQjswR0FDakNXLENBQU07a0NBQUMsQ0FBUzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUtyQyxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcmlmYS8uL3NyYy9jb21wb25lbnRzL0NhcmRzUmFmZmxlL2luZGV4LnRzeD9jMzU5Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZXMgZnJvbSAnLi9zdHlsZXMubW9kdWxlLnNjc3MnO1xyXG5cclxuZXhwb3J0IGZ1bmN0aW9uIENhcmRzUmFmZmxlKCkge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLmhlYWRlckNvbnRhaW5lcn0+XHJcbiAgICAgICAgICAgIDxzZWN0aW9uPlxyXG4gICAgICAgICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJpbWFnZVwic3JjPVwiL0lwaG9uZThQbHVzUm9zYS5qcGdcIiBhbHQ9XCJcIiAvPlxyXG4gICAgICAgICAgICAgICAgPHA+SXBob25lIDggcGx1cyAtIFIkIDgsMDAgY2FkYSBuw7ptZXJvPC9wPlxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5idXR0b25Db250YWluZXJ9PlxyXG4gICAgICAgICAgICAgICAgICAgIDxidXR0b24+QWRpcXVpcmlyPC9idXR0b24+XHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPC9zZWN0aW9uPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgKVxyXG59Il0sIm5hbWVzIjpbInN0eWxlcyIsIkNhcmRzUmFmZmxlIiwiZGl2IiwiY2xhc3NOYW1lIiwiaGVhZGVyQ29udGFpbmVyIiwic2VjdGlvbiIsImltZyIsInNyYyIsImFsdCIsInAiLCJidXR0b25Db250YWluZXIiLCJidXR0b24iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/components/CardsRaffle/index.tsx\n");
+
+/***/ }),
+
+/***/ "./src/components/Header/index.tsx":
+/*!*****************************************!*\
+  !*** ./src/components/Header/index.tsx ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Header\": () => (/* binding */ Header)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.module.scss */ \"./src/components/Header/styles.module.scss\");\n/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction Header() {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default().headerContainer),\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default().headerContent),\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                    src: \"/logo.svg\",\n                    alt: \"Your Reffle\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\components\\\\Header\\\\index.tsx\",\n                    lineNumber: 7,\n                    columnNumber: 17\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                            children: \"Login\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\components\\\\Header\\\\index.tsx\",\n                            lineNumber: 9,\n                            columnNumber: 21\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                            children: \"Criar Conta\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\components\\\\Header\\\\index.tsx\",\n                            lineNumber: 10,\n                            columnNumber: 21\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\components\\\\Header\\\\index.tsx\",\n                    lineNumber: 8,\n                    columnNumber: 17\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\components\\\\Header\\\\index.tsx\",\n            lineNumber: 6,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\components\\\\Header\\\\index.tsx\",\n        lineNumber: 5,\n        columnNumber: 9\n    }, this));\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9IZWFkZXIvaW5kZXgudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUF5QztBQUVsQyxTQUFTQyxNQUFNLEdBQUcsQ0FBQztJQUN0QixNQUFNLDZFQUNEQyxDQUFHO1FBQUNDLFNBQVMsRUFBRUgsNEVBQXNCOzhGQUNqQ0UsQ0FBRztZQUFDQyxTQUFTLEVBQUVILDBFQUFvQjs7NEZBQy9CTSxDQUFHO29CQUFDQyxHQUFHLEVBQUMsQ0FBVztvQkFBQ0MsR0FBRyxFQUFDLENBQWE7Ozs7Ozs0RkFDckNDLENBQUc7O29HQUNDQyxDQUFNO3NDQUFDLENBQUs7Ozs7OztvR0FDWkEsQ0FBTTtzQ0FBQyxDQUFXOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUt2QyxDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcmlmYS8uL3NyYy9jb21wb25lbnRzL0hlYWRlci9pbmRleC50c3g/NDAwMyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVzIGZyb20gJy4vc3R5bGVzLm1vZHVsZS5zY3NzJztcclxuXHJcbmV4cG9ydCBmdW5jdGlvbiBIZWFkZXIoKSB7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuaGVhZGVyQ29udGFpbmVyfT5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5oZWFkZXJDb250ZW50fT5cclxuICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiL2xvZ28uc3ZnXCIgYWx0PVwiWW91ciBSZWZmbGVcIiAvPiBcclxuICAgICAgICAgICAgICAgIDxuYXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbj5Mb2dpbjwvYnV0dG9uPlxyXG4gICAgICAgICAgICAgICAgICAgIDxidXR0b24+Q3JpYXIgQ29udGE8L2J1dHRvbj5cclxuICAgICAgICAgICAgICAgIDwvbmF2PlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICA8L2Rpdj5cclxuICAgIClcclxufSJdLCJuYW1lcyI6WyJzdHlsZXMiLCJIZWFkZXIiLCJkaXYiLCJjbGFzc05hbWUiLCJoZWFkZXJDb250YWluZXIiLCJoZWFkZXJDb250ZW50IiwiaW1nIiwic3JjIiwiYWx0IiwibmF2IiwiYnV0dG9uIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/Header/index.tsx\n");
+
+/***/ }),
+
+/***/ "./src/pages/index.tsx":
+/*!*****************************!*\
+  !*** ./src/pages/index.tsx ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_CardsRaffle__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/CardsRaffle */ \"./src/components/CardsRaffle/index.tsx\");\n/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Header */ \"./src/components/Header/index.tsx\");\n\n\n\nfunction Home() {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Header__WEBPACK_IMPORTED_MODULE_2__.Header, {}, void 0, false, {\n                fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\pages\\\\index.tsx\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, this),\n            \",\",\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_CardsRaffle__WEBPACK_IMPORTED_MODULE_1__.CardsRaffle, {}, void 0, false, {\n                    fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\pages\\\\index.tsx\",\n                    lineNumber: 10,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\PROJETOS GITHUB\\\\Rifa-1\\\\src\\\\pages\\\\index.tsx\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true));\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvaW5kZXgudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUF1RDtBQUNWO0FBRTlCLFFBQVEsQ0FBQ0UsSUFBSSxHQUFHLENBQUM7SUFDOUIsTUFBTTs7d0ZBRURELHNEQUFNOzs7OztZQUFHLENBRVY7d0ZBQUNFLENBQUk7c0dBQ0ZILGdFQUFXOzs7Ozs7Ozs7Ozs7QUFJcEIsQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3JpZmEvLi9zcmMvcGFnZXMvaW5kZXgudHN4PzE5YTAiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ2FyZHNSYWZmbGUgfSBmcm9tIFwiLi4vY29tcG9uZW50cy9DYXJkc1JhZmZsZVwiO1xyXG5pbXBvcnQgeyBIZWFkZXIgfSBmcm9tIFwiLi4vY29tcG9uZW50cy9IZWFkZXJcIjtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWUoKSB7XHJcbiAgcmV0dXJuIChcclxuICAgIDw+XHJcbiAgICAgIDxIZWFkZXIgLz4sXHJcblxyXG4gICAgICA8bWFpbj5cclxuICAgICAgICA8Q2FyZHNSYWZmbGUgLz5cclxuICAgICAgPC9tYWluPlxyXG4gICAgPC8+XHJcbiAgKVxyXG59XHJcbiJdLCJuYW1lcyI6WyJDYXJkc1JhZmZsZSIsIkhlYWRlciIsIkhvbWUiLCJtYWluIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/pages/index.tsx\n");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./src/pages/index.tsx"));
+module.exports = __webpack_exports__;
+
+})();
